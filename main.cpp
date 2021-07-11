@@ -8,10 +8,15 @@ int main()
 {
 	Polynomial p1(vector<float>{2.0f, 0.0f, 1.0f, -1.0f});
 	cout << p1.to_string('x') << endl;
+
 	Polynomial p2(vector<float>{3.0f, 2.0f});
+	cout << p2.to_string('x') << endl;
+
 	Polynomial p3 = p1 + p2;
-	
+	cout << p3.to_string('x') << endl;
+
 	Polynomial p4 = p1.Antiderivative();
 	cout << p4.to_string('x') << endl;
+
 	return 0;
 }
