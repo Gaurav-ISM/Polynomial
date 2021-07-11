@@ -2,5 +2,5 @@
 
 - Build steps
 ```sh
-g++ main.cpp Polynomial.cpp -o main.cpp
+g++ main.cpp Polynomial.cpp -o main
 ```
